@@ -200,6 +200,6 @@ combos:
 - p: [1, 15, 29]
   k: '&soft_off'
 - p: [23, 24]
-  k: $$mdi:backspace-reverse-outline$$
+  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
