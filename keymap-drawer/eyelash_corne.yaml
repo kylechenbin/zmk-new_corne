@@ -199,3 +199,7 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [23, 24]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [17, 16]
+  k: $$mdi:keyboard-esc$$
