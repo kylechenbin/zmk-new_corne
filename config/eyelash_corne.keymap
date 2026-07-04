@@ -3,8 +3,8 @@
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors.dtsi>
 #include <behaviors/runtime-sensor-rotate.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -35,9 +35,16 @@
             #sensor-binding-cells = <0>;
             tap-ms = <0>;
         };
+
+        del: del {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DEL";
+            #binding-cells = <0>;
+            bindings = <&kp J>, <&kp K>;
+        };
     };
 
-   combos {
+    combos {
         compatible = "zmk,combos";
 
         softoff {
