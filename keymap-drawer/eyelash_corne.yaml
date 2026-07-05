@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - Fn
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -93,10 +93,10 @@ layers:
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,10 +142,10 @@ layers:
   - '|'
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -192,10 +192,10 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
@@ -203,3 +203,17 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
+- p: [28, 29]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [13, 14]
+  k: $$mdi:apple-keyboard-caps$$
+- p: [0, 1]
+  k: $$mdi:keyboard-tab$$
+- p: [46, 25, 26]
+  k: {t: '-', s: _}
+- p: [46, 26, 27]
+  k: {t: '=', s: +}
+- p: [26, 27]
+  k: <
+- p: [40, 41]
+  k: {t: /, s: '?'}
