@@ -104,7 +104,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - SCROLLLOCK
-  - PAUSE
+  - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
