@@ -55,11 +55,6 @@
             key-positions = <17 16>;
         };
 
-        apos {
-            bindings = <&kp APOSTROPHE>;
-            key-positions = <26 27>;
-        };
-
         Lpar {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -121,9 +116,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp TAB   &trans  &trans  &trans  &trans                       &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans  &trans
-&trans  &kp CAPS  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &kp SINGLE_QUOTE  &trans             &trans    &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans     &trans            &trans          &kp MINUS         &kp EQUAL          &trans    &trans  &trans  &kp GRAVE
+&trans  &kp TAB   &trans  &trans  &trans  &trans                       &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans     &trans
+&trans  &kp CAPS  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &kp SINGLE_QUOTE  &trans             &trans    &trans  &trans     &trans
+&trans  &trans    &trans  &trans  &trans  &trans     &trans            &trans          &kp MINUS         &kp EQUAL          &trans    &trans  &kp GRAVE  &trans
                           &trans  &trans  &kp SPACE                                    &kp RET           &trans             &trans
             >;
 
