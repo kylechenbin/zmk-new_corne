@@ -139,8 +139,8 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-space$$
@@ -203,8 +203,6 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
-- p: [26, 27]
-  k: <
 - p: [4, 5]
   k: (
 - p: [7, 8]
