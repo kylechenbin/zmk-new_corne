@@ -116,10 +116,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp TAB   &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp C_PAUSE                      &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans     &trans
-&trans  &kp CAPS  &trans  &kp INSERT       &kp HOME        &kp PAGE_UP              &trans  &trans  &trans  &kp SINGLE_QUOTE  &trans             &trans    &trans  &trans     &trans
-&trans  &trans    &trans  &kp DELETE       &kp END         &kp PAGE_DOWN  &trans            &trans          &kp MINUS         &kp EQUAL          &trans    &trans  &kp GRAVE  &trans
-                          &trans           &trans          &trans                                           &trans            &trans             &trans
+&trans  &kp TAB   &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans     &trans
+&trans  &kp CAPS  &trans  &kp INSERT       &kp HOME        &kp PAGE_UP                &trans  &trans  &trans  &kp SINGLE_QUOTE  &trans             &trans    &trans  &trans     &trans
+&trans  &trans    &trans  &kp DELETE       &kp END         &kp PAGE_DOWN    &trans            &trans          &kp MINUS         &kp EQUAL          &trans    &trans  &kp GRAVE  &trans
+                          &trans           &trans          &trans                                             &trans            &trans             &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
