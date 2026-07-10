@@ -84,6 +84,26 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <36 37>;
         };
+
+        sqt {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <25 26>;
+        };
+
+        bslh {
+            bindings = <&kp BSLH>;
+            key-positions = <10 11>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <38 39>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
