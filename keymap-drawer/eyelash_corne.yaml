@@ -225,3 +225,5 @@ combos:
   k: {t: '=', s: +}
 - p: [37, 38]
   k: {t: '`', s: '~'}
+- p: [43, 46]
+  k: $$mdi:apple-keyboard-command$$
