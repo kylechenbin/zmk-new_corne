@@ -109,6 +109,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <37 38>;
         };
+
+        Lgui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <43 46>;
+        };
     };
 
     keymap {
